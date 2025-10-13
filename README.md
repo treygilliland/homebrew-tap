@@ -1,4 +1,4 @@
-# Treygilliland Tap
+# tap
 
 ## How do I install these formulae?
 
