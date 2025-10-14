@@ -11,7 +11,7 @@ class Gophertype < Formula
 
   if Hardware::CPU.intel?
     url "https://pub-6085c325f09e4e99bb69108db6dd11a5.r2.dev/releases/0.0.1/gophertype_0.0.1_darwin_amd64.tar.gz"
-    sha256 "bed385784e8546872f6f3b4f02a53c58a53ac454f104614276eef7f17aee6cc7"
+    sha256 "1482adc93400b1f02bdc67bf4145a96eda767472d802cfb73353e982d201dd1d"
 
     def install
       bin.install "gophertype"
@@ -19,7 +19,7 @@ class Gophertype < Formula
   end
   if Hardware::CPU.arm?
     url "https://pub-6085c325f09e4e99bb69108db6dd11a5.r2.dev/releases/0.0.1/gophertype_0.0.1_darwin_arm64.tar.gz"
-    sha256 "d1a4fad8b1e0feff433e2eac4c636d8e6eb8269e2db2be5919cc10c54fe0b717"
+    sha256 "c7b7a45662793c8be49fdb73833205c2f0608882ae7dfc10f68630a0bb444917"
 
     def install
       bin.install "gophertype"
