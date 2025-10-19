@@ -5,21 +5,21 @@
 class Gophertype < Formula
   desc "Terminal-based typing practice tool with real-time WPM and accuracy tracking"
   homepage "https://github.com/treygilliland/zootype"
-  version "0.0.5"
+  version "0.0.6"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/treygilliland/zootype/releases/download/0.0.5/gophertype_0.0.5_darwin_amd64.tar.gz"
-    sha256 "caa88684740e026b05eebe055d06068dee0d2fb6781f12760fdb61d66323ec42"
+    url "https://github.com/treygilliland/zootype/releases/download/v0.0.6/gophertype_0.0.6_darwin_amd64.tar.gz"
+    sha256 "2d9ce0aef7eb75f2e640f86d8bf47b1269fba25e3efad6e1bd99aa4c109b2a61"
 
     def install
       bin.install "gophertype"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/treygilliland/zootype/releases/download/0.0.5/gophertype_0.0.5_darwin_arm64.tar.gz"
-    sha256 "4ff25faaabc04b4bbd557f5e96059c0e5a68f2dc6e00619c74c05ff9a6e30c64"
+    url "https://github.com/treygilliland/zootype/releases/download/v0.0.6/gophertype_0.0.6_darwin_arm64.tar.gz"
+    sha256 "d868b9a203f37d9d744d397396ea107e141cd788f35b209bb581e198d8714d2c"
 
     def install
       bin.install "gophertype"
